@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Signup from './pages/Signup';
 import LogPage from './pages/LogPage';
@@ -7,6 +8,7 @@ import Register from './pages/Register';
 import Bank from './pages/Bank';
 import HomePage from './pages/HomePage';
 import Forgot from './pages/Forgot';
+
 
 
 function App() {
@@ -23,6 +25,11 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+
+
+
+
+
     </>
   );
 }
